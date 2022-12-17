@@ -3,14 +3,26 @@
 <meta charset='UTF-8'/>
 <meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/> 
   
-  <script src="sweetalert2.all.min.js"></script>
-<meta content='IE=edge' http-equiv='X-UA-Compatible'/><link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'/><link href="https://Blog.feeldream.repl.co/style.css" rel="stylesheet" type="text/css" />
 
 <head>
-<title>Dari izan untuk salyna</title>
+<title>Script HTML</title>
 <meta name="description" content="">
 <meta name="keywords" content="">
-<link rel="icon" type="image/x-icon" href="logobulan.png">
+<link rel="icon" type="image/x-icon" href="https://www.palingit.com/favicon.ico">
+<!-- 
+  
+  Made with love by Rayys!
+  
+     Blog: https://PalingIT.com
+     Instagram: @rayyarrr
+     TikTok: @rayy4r
+     Email: rayyar0703@gmail.com
+     
+  Thanks to all <3
+  
+-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -27,7 +39,7 @@
 }
 @keyframes fanim {0% {background-position: 0% 0%;}25% {background-position: 100% 100%;} 50% {background-position: 0% 100%;} 75% {background-position: 50% 50%;} 100% {background-position: 0% 0%;}}
 body{background-color:#000;font-family:var(--gaya-font);padding: 20px 25px;-webkit-user-select: none; -ms-user-select: none; user-select: none;} a{text-decoration:none;}
-body::before{content:"\00A9  izan ";color:white;opacity:0;font-size:11px;position:fixed;bottom:25px;right:25px;z-index:2}
+body::before{content:"\00A9  Rayys | PalingIT";color:white;opacity:0;font-size:11px;position:fixed;bottom:25px;right:25px;z-index:2}
 #bodyblur{opacity:0;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.3);z-index:-1;transition:all 1s ease;} 
 #beneranblur{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.3);-webkit-backdrop-filter:blur(0px); backdrop-filter:blur(0px);transition:all 3s ease;}
 #wallpaper{width:100%;height:100%;transform: scale(2);transition:all 1s ease;}
@@ -66,6 +78,7 @@ blockquote p{margin-left:20px;margin-right:20px;font-size:18px;font-weight:700;l
 .fa-heart {opacity:.3;color:white;font-size: 27px;position: absolute;animation:  heartMove linear 1;top: -10vh;z-index: 0;}
 @keyframes heartMove {0%{transform: translateY(-10vh) ;} 100%{transform: translateY(100vh) ;}}
 
+#pesanWA, #pesanstiker > *, #pesanAwal, #tgeser, #tklik, #tiya, #tmbl2, #linkmp3, #fotoakhir2, #pesanditolak > *, #kalimat2, #kalimatb2, #kalimatc2, #kalimat3, #kalimatb3, #kalimatc3, #kalimatbb{display:none}
 </style>
 <body>
 	
@@ -92,7 +105,8 @@ blockquote p{margin-left:20px;margin-right:20px;font-size:18px;font-weight:700;l
          <img src="https://feeldreams.github.io/peachktw.gif" id="fotoakhir5"/>
 
          <img src="https://feeldreams.github.io/peach22.gif" id="fotoAkhir"/>
-     </div>     <div><blockquote id='bq'>
+     </div>
+     <div><blockquote id='bq'>
   
        <!-- Konten Penerapan -->
        <p id="kalimat">Membeli Barang Antik</p>
@@ -103,11 +117,11 @@ blockquote p{margin-left:20px;margin-right:20px;font-size:18px;font-weight:700;l
        <p id="kalimatd2">Cuaakkss~</p>
        
        <!-- Konten Pertanyaan -->
-       <p id="kalimat2">Bole la ya salyna comeelll 🥺❤️</p>
+       <p id="kalimat2">Boleh Gak Nih? 🤣❤️</p>
 
        <!-- Konten Jawaban -->
        <p id="kalimat3">Jawabanmu: </p>
-       <p id="kalimatb3">Kirim ke WhatsApp aku ya cantikk<3</p>
+       <p id="kalimatb3">Kirim ke WhatsApp aku ya!</p>
      </blockquote></div>
    
      <!-- Tombol Multifungsi -->
@@ -120,35 +134,119 @@ blockquote p{margin-left:20px;margin-right:20px;font-size:18px;font-weight:700;l
      
    </div>
 
-
 <!-- Jangan Edit Bagian Ini --><script>
-  async function menuju(){await swals.fire('OK!', 'Kirim pesan ke WhatsApp aku, ya!', 'success');window.location = "https://api.whatsapp.com/send?phone=082288379878&text=" + pesanwhatsapp;Tombol.style="margin-top:15px;opacity:1;transform: scale(1);";}
-
-const swalst = Swal.mixin({timer: 2777, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 100,}); const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageWidth: 100, imageHeight: 100,}); const body = document.querySelector("body");function createHeart() {const heart = document.createElement("div"); heart.className = "fas fa-heart"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-heart"); if (heartArr.length > 100) {heartArr[0].remove()}},100); ftom=0;jikatom=0;ftganti=0;fungsi=0;
-
-function mulaikonten() {
-  setTimeout(fmketik1,50);setTimeout(mketik1,50);
-  setTimeout(fmketik2,1800);setTimeout(mketik2,1800);
-  setTimeout(fmketik3,3250);setTimeout(mketik3,3250);
-  setTimeout(fmketik4,5000);setTimeout(mketik4,5000);
-  setTimeout(fmketik5,5900);setTimeout(mketik5,5900);
-  setTimeout(fmketik6,6750);setTimeout(mketik6,6750);
+  ftom=0;jikatom=0;ftganti=0;fungsi=0;
+  
+  function mulaikonten() {
+                          setTimeout(fmketik1,1200);setTimeout(mketik1,1200);
+                          setTimeout(fmketik2,2500);setTimeout(mketik2,2500);
+                          setTimeout(fmketik3,4100);setTimeout(mketik3,4100);
+                          setTimeout(fmketik4,5300);setTimeout(mketik4,5300);
+                          setTimeout(fmketik5,6300);setTimeout(mketik5,6300);
+                         }
+  
+  vketik=kalimat.innerHTML;kalimat.innerHTML = "";
+  vketika=kalimata.innerHTML;kalimata.innerHTML = "";
+  vketikb=kalimatb.innerHTML;kalimatb.innerHTML = "";
+  vketikc=kalimatc.innerHTML;kalimatc.innerHTML = "";
+  vketikd=kalimatd.innerHTML;kalimatd.innerHTML = "";
+  vketikd2=kalimatd2.innerHTML;kalimatd2.innerHTML = "";
+  
+  var aa=0,vketik;
+  function fmketik1(){
+  wallpaper.style="transform: scale(1.5);";
+  fthilang();ftganti=1;setTimeout(ftmuncul,200);
 }
+function mketik1() {if(aa<vketik.length){kalimat.innerHTML += vketik.charAt(aa);aa++;setTimeout(mketik1,42);}}
 
-async function jawab(){
-var { value: jawaban } = await swals.fire({
-  title: 'Tulis Pesan &#128073;&#128072;', input: 'text', allowOutsideClick: false, showCancelButton: false,
-});
-if(jawaban && jawaban.length < 19){
-  window.jawaban = jawaban;
-  pesanwhatsapp = jawaban;
-  balasan = jawaban;
-  otomatis3();setTimeout(stakhir,1000);
-} else {
-  await swals.fire('Ups!', 'Jawaban tidak boleh kosong atau lebih dari 18 karakter, ya!');jawab();
+var ab=0,vketika;
+function fmketik2(){
+  wallpaper.style="transform: scale(1);";
+  fthilang();ftganti=2;setTimeout(ftmuncul,200);
 }
+function mketik2() {if(ab<vketika.length){kalimata.innerHTML += vketika.charAt(ab);ab++;setTimeout(mketik2,45);}}
+  
+  var ac=0,vketikb;
+function fmketik3(){
+  wallpaper.style="transform: scale(1.5);";
+  fthilang();ftganti=3;setTimeout(ftmuncul,200);
+  kalimat.innerHTML="";kalimata.innerHTML="";
 }
+function mketik3() {if(ac<vketikb.length){kalimatb.innerHTML += vketikb.charAt(ac);ac++;setTimeout(mketik3,40);}}
 
+  var ad=0,vketikc;
+function fmketik4(){
+  wallpaper.style="transform: scale(1);";
+  fthilang();ftganti=4;setTimeout(ftmuncul,200);
+  kalimatb.innerHTML="";
+}
+function mketik4() {if(ad<vketikc.length){kalimatc.innerHTML += vketikc.charAt(ad);ad++;setTimeout(mketik4,35);}}
+
+  var ae=0,vketikd;var af=0,vketikd2;
+function fmketik5(){
+  
+}
+function mketik5() {if(ae<vketikd.length){kalimatd.innerHTML += vketikd.charAt(ae);ae++;setTimeout(mketik5,35);} if(ae==vketikd.length){setTimeout(befmketik5b,400)}}
+  
+function befmketik5b() {
+  wallpaper.style="transform: scale(1.5);";
+  fthilang();
+  ftganti=5;setTimeout(ftmuncul,200);
+  kalimatd.innerHTML="";setTimeout(mketik5b,200);
+}
+function mketik5b() {if(af<vketikd2.length){kalimatd.innerHTML += vketikd2.charAt(af);af++;setTimeout(mketik5b,35);} if(af==vketikd2.length){tombol()}}
+
+  function dilanjut(){wallpaper.style="transform: scale(1.5);";setTimeout(otomatis2,300);fthilang();ftganti=10;setTimeout(ftmuncul,300);Tombol.style="opacity:0;transform: scale(.1);";jikatom=1;setTimeout(tombol,1000);}
+  
+  function otomatis() {befanimkata();setTimeout(animkata,400);} 
+  function befanimkata(){kalimat.style="transform:scale(.3);";kalimatb.style="transform:scale(.3);";kalimatc.style="transform:scale(.3);";} 
+  function animkata() {kalimat.style="transform:scale(1);";kalimatb.style="transform:scale(1);";kalimatc.style="transform:scale(1);";}
+  
+  function otomatis2() {
+  kalimat.innerHTML = kalimat2.innerHTML;kalimat.style="margin-left:0;margin-right:0";
+  kalimat.style="";kalimata.innerHTML="";
+  kalimatb.innerHTML="";kalimatc.innerHTML="";
+  kalimatd.innerHTML="";
+  }
+
+  function otomatis3() {befanimkata3();setTimeout(animkata3,700);} 
+  function befanimkata3(){kalimat.style="";kalimatb.style="";kalimat.style="opacity:0";kalimatb.style="opacity:0";} 
+  function animkata3() {kalimat.innerHTML = kalimat3.innerHTML + balasan;kalimatb.innerHTML = kalimatb3.innerHTML;kalimat.style="opacity:1;font-size:18px;transition:none";kalimatb.style="opacity:1;font-size:17px;font-weight:400;transition:none";}
+  
+  function ftmuncul(){
+    if(ftganti==0){fotoakhir.style="display:inline-flex;transition:all .7s ease;opacity:1;transform:scale(1)";}
+    if(ftganti==1){fotoakhir.src = fotoakhir1.src;fotoakhir.style="display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(1);";}
+    if(ftganti==2){fotoakhir.src = fotoakhir2.src;fotoakhir.style="display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(1);";}
+    if(ftganti==3){fotoakhir.src = fotoakhir3.src;fotoakhir.style="display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(1);";}
+    if(ftganti==4){fotoakhir.src = fotoakhir4.src;fotoakhir.style="display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(1);";}
+    if(ftganti==5){fotoakhir.src = fotoakhir5.src;fotoakhir.style="display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(1);";}
+    if(ftganti==6){fotoakhir.src = fotoakhir6.src;fotoakhir.style="display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(1);";}
+    if(ftganti==10){fotoakhir.src = fotoAkhir.src;fotoakhir.style="display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(1);";}
+  }
+  async function menuju(){await swals.fire('OK!', 'Kirim pesan ke WhatsApp aku, ya!', 'success');window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;Tombol.style="margin-top:15px;opacity:1;transform: scale(1);";}
+
+  const swalst = Swal.mixin({timer: 2777, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 100,}); const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageWidth: 100, imageHeight: 100,}); const body = document.querySelector("body");function createHeart() {const heart = document.createElement("div"); heart.className = "fas fa-heart"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-heart"); if (heartArr.length > 100) {heartArr[0].remove()}},100);
+
+  document.getElementById('suratin').onclick = function(){
+    suratin.style="transition:all 1s ease;transform:scale(.1);opacity:0";
+    ket.style="transition:all 1s ease;transform:scale(.1);opacity:0";
+    setTimeout(fmulaikonten,300);setTimeout(mulaikonten,300)
+  }
+  function fmulaikonten(){
+    fungsi=1;suratin.style="display:none";
+    ket.style="display:none";
+    Content.style = "opacity:1;margin-top:4vh;";
+    bodyblur.style="opacity:.3;animation:none";
+    wallpaper.style="transform: scale(1);";
+    bq.style = "position:relative;opacity:1;visibility:visible;margin-top:0;";
+    audio.play();ftganti=0;ftmuncul();
+  }
+  function fthilang(){
+    fotoakhir.style="display:inline-flex;opacity:.5;transition:all .7s ease;transform:scale(.1)";
+  }
+  function jjfoto(){
+    fotoakhir.style.animation="rto .8s infinite alternate";
+  }
 </script>
 <script src="/script.js"></script>
 <!-- Sampai Sini -->
